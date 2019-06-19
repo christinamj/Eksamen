@@ -436,7 +436,6 @@ h3 {
     width: 100vw;
     padding-top: 50px;
     padding-left: 80px;
-    background-color: #e6e7e8;
     background-color: #EDF2F8;
 
 }
@@ -449,17 +448,17 @@ h3 {
     padding-left: 80px;
     background-color: #e6e7e8;
     background-color: #F7F9FA;
+    padding-bottom: 10vw;
 
 }
 
 #tema42 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 100vw;
     padding-top: 50px;
-    padding-left: 80px;
     background-color: #e6e7e8;
-    background-color: #EDF2F8;
 
 }
 
@@ -470,8 +469,10 @@ h3 {
     padding-top: 50px;
     padding-left: 80px;
     background-color: #e6e7e8;
-    background-color: #EDF2F8;
+
 }
+
+
 
 
 .stilbillede {
@@ -501,11 +502,21 @@ h3 {
     margin-top: 4vw;
 }
 
+.redesign {
+    height: 35vw;
+    width: 35vw;
+    background-image: url(Ikoner/DAF.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+}
+
 
 .dsbillede {
-    height: 20vw;
-    width: 35vw;
-    background-image: url(Ikoner/prototypefronter.png);
+    height: 35vw;
+    width: 30vw;
+    background-image: url(Ikoner/fronterprototype.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 4vw;
@@ -521,12 +532,21 @@ h3 {
 }
 
 .protobillede2 {
-    height: 35vw;
-    width: 35vw;
-    background-image: url(Ikoner/fronterprot2.png);
+    height: 55vw;
+    width: 45vw;
+    background-image: url(Ikoner/web%20prototype.png);
     background-size: contain;
     margin-top: 4vw;
     background-repeat: no-repeat;
+}
+
+.protobillede3 {
+    height: 55vw;
+    width: 45vw;
+    background-image: url(Ikoner/Lac.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 4vw;
 }
 
 
@@ -539,7 +559,7 @@ h3 {
 .col2 {
     height: 10vw;
     width: 50vw;
-    padding-top: 12vw;
+    padding-top: 18vw;
     padding-left: 10vw;
     flex-basis: 200px;
     flex-grow: 2;
@@ -553,7 +573,7 @@ h3 {
 .col4 {
     height: 10vw;
     width: 50vw;
-    padding-top: 12vw;
+    padding-top: 17vw;
     padding-left: 10vw;
     flex-basis: 200px;
     flex-grow: 2;
@@ -562,19 +582,59 @@ h3 {
 .col5 {
     height: 10vw;
     width: 50vw;
-    padding-top: 12vw;
+    padding-top: 24vw;
     padding-left: 10vw;
     flex-basis: 200px;
     flex-grow: 2;
 }
 
 .col6 {
-    height: 10vw;
+    height: 100vw;
     width: 50vw;
-    padding-top: 22vw;
-    padding-left: 10vw;
+    padding-top: 15px;
     flex-basis: 200px;
     flex-grow: 2;
+}
+
+.col8 {
+    height: 50vw;
+    width: 50vw;
+    padding-top: 15px;
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+.col9 {
+    padding-left: 90px;
+    width: 50vw;
+}
+
+.col7 {
+    padding-left: 40px;
+}
+
+.col8 {
+    padding-left: 3vw;
+}
+
+.col10 {
+    padding-left: 7.3vw;
+    padding-top: 2vw;
+}
+
+.col10 p {
+    padding-left: 1vw;
+}
+
+
+.webcon {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.nativecon {
+    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .knap1 {
@@ -598,6 +658,40 @@ h3 {
     padding: 10px;
 }
 
+.knap3 {
+    width: 26vw;
+    height: 5vw;
+    background-color: #A3D399;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2vw;
+}
+
+.knap4 {
+    width: 26vw;
+    height: 5vw;
+    background-color: #A3D399;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2vw;
+}
+
+.knapredesign {
+    width: 26vw;
+    height: 5vw;
+    background-color: #A3D399;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2vw;
+}
+
+
 @media only screen and (max-width:890px) {
     #tema1 {
         flex-direction: column;
@@ -615,10 +709,6 @@ h3 {
         flex-direction: column;
     }
 
-    #tema32 {
-        flex-direction: column;
-    }
-
     #tema4 {
         flex-direction: column;
     }
@@ -627,51 +717,100 @@ h3 {
         flex-direction: column;
     }
 
+    #tema32 {
+        padding-bottom: 10vw;
+    }
+
+    #tema42 {
+        flex-direction: column;
+    }
+
+    .nativecon {
+        padding-left: 9vw;
+        padding-top: 20vw;
+    }
+
 
     .col2 {
         padding: 0;
         ;
-        font-size: 0.7em;
+        font-size: 0.85em;
         margin-top: -5vw
     }
 
     .col3 {
-        padding: 0;
+        padding-top: 10px;
         ;
-        font-size: 0.7em;
-        margin-top: -5vw
+        margin-top: -5vw;
+        font-size: 0.85em;
     }
 
     .col4 {
         padding: 0;
         ;
-        font-size: 0.7em;
+        font-size: 0.85em;
         margin-top: -5vw
     }
 
     .col5 {
         padding: 0;
         ;
-        font-size: 0.7em;
+        font-size: 0.85em;
         margin-top: 5vw;
     }
 
     .col6 {
         padding: 0;
         ;
-        font-size: 0.7em;
+        font-size: 0.9em;
         margin-top: 5vw;
+    }
+
+    .col8 {
+        padding: 0;
+        ;
+        font-size: 0.85em;
+        margin-top: 5vw;
+        padding-left: 7vw;
+    }
+
+    .col10 {
+        padding: 0;
+        ;
+        font-size: 0.85em;
+        margin-top: 5vw;
+        margin-left: 16vw;
     }
 
 
     .knap2 {
         height: 7vw;
-        width: 28vw;
+        width: 29vw;
+        font-size: 0.85em;
     }
 
     .knap1 {
         height: 7vw;
-        width: 28vw;
+        width: 29vw;
+        font-size: 0.85em;
+    }
+
+    .knap3 {
+        height: 7vw;
+        width: 29vw;
+        font-size: 0.85em;
+    }
+
+    .knap4 {
+        height: 7vw;
+        width: 29vw;
+        font-size: 0.85em;
+    }
+
+    .knapredesign {
+        height: 7vw;
+        width: 29vw;
+        font-size: 0.85em;
     }
 
     .stilbillede {
@@ -695,6 +834,11 @@ h3 {
     }
 
     .dsbillede {
+        height: 50vw;
+        width: 70vw
+    }
+
+    .redesign {
         height: 50vw;
         width: 70vw
     }
@@ -791,34 +935,31 @@ h3 {
 }
 
 .overskriftds {
-    padding: 35px;
-    padding-left: 70px;
     padding-bottom: 50px;
     padding-top: 6vw;
-    margin-left: 4vw
 }
 
-#dscontainer p,
+#dscontainer,
 h4 {
-    padding: 60px;
-    padding-right: 250px;
+
     line-height: 1.5em;
-    margin-left: 5vw;
+    padding-top: 0;
+    line-height: 1.5em;
     padding-top: 0;
 }
 
-dscontainer p {
-    padding: 60px;
-    padding-right: 250px;
+#dscontainer p {
     line-height: 1.5em;
-    margin-left: 5vw;
-    padding-top: 0;
+    margin-bottom: 5vw;
 }
 
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 0;
+#dscontainer {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
+
+
+
 
 .longterm {
     height: 20vw;
@@ -849,4 +990,157 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
     padding-bottom: 1vw;
+}
+
+/*NATIVE APP DOKUMENTATION*/
+
+#doknativecontainer,
+h4 {
+
+    line-height: 1.5em;
+    padding-top: 0;
+    line-height: 1.5em;
+    padding-top: 0;
+}
+
+#doknativecontainer p {
+    line-height: 1.5em;
+    margin-bottom: 5vw;
+}
+
+#doknativecontainer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.overskrift2 {
+    padding-bottom: 100px;
+    padding-top: 5vw;
+}
+
+.teamcanvas {
+    height: 50vw;
+    width: 60vw;
+    background-image: url(Ikoner/teamcanvas.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+    padding-top: 2vw;
+}
+
+.survey1 {
+    height: 90vw;
+    width: 80vw;
+    background-image: url(Ikoner/survey1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.survey2 {
+    height: 20vw;
+    width: 40vw;
+    background-image: url(Ikoner/survey2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.sprintq {
+    height: 30vw;
+    width: 40vw;
+    background-image: url(Ikoner/sprintq.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.map1 {
+    height: 30vw;
+    width: 39vw;
+    background-image: url(Ikoner/map1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.lightd1 {
+    height: 30vw;
+    width: 40vw;
+    background-image: url(Ikoner/lightd1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.lightd2 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/lightd2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.sketch1 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/sketches1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.sketch2 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/sketches2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.solution1 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/solution.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.storyboard1 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/storyboard1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.storyboard2 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/storyboard2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.storyboard3 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/storyboard3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
+}
+
+.storyboard4 {
+    height: 40vw;
+    width: 37vw;
+    background-image: url(Ikoner/storyboard4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5vw;
 }
