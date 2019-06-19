@@ -28,14 +28,7 @@ function toggleMenu() {
         document.querySelector("#dokcontainer").classList.toggle("hidden");
     }
 
-    if (document.querySelector("#omcontainer")) {
-        document.querySelector("#omcontainer").classList.toggle("hidden");
-    }
 
-
-    if (document.querySelector("#colom2")) {
-        document.querySelector("#colom2").classList.toggle("hidden");
-    }
     if (document.querySelector("#overskriftres")) {
         document.querySelector("#overskriftres").classList.toggle("hidden");
     }
@@ -51,4 +44,17 @@ function toggleMenu() {
     if (document.querySelector("#redesigncon")) {
         document.querySelector("#redesigncon").classList.toggle("hidden");
     }
+    if (document.querySelector("#omcontainer")) {
+        document.querySelector("#omcontainer").classList.toggle("hidden");
+    }
+    if (document.querySelector("#col")) {
+        document.querySelector("#col").classList.toggle("hidden");
+    }
+
+    if (document.querySelector("#dokcontainerveg")) {
+        document.querySelector("#dokcontainerveg").classList.toggle("hidden");
+    }
+
+
+
 }

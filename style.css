@@ -197,13 +197,25 @@ drop {
 }
 
 #burger {
-    height: 100vw;
-    background-color: #CDD9EA;
+    height: 178vw;
+    width: 100%;
+    background-color: #B2B3B3;
     padding: 50px;
+    font-size: 2rem;
 }
 
 #menuknapluk {
     padding-left: 10vw;
+    color: white;
+}
+
+.logob {
+    height: 20vw;
+    width: 40vw;
+    background-image: url(Ikoner/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 22vw
 }
 
 #burgermenu a {
@@ -211,13 +223,15 @@ drop {
     text-decoration: none;
     text-align: center;
     padding: 1vw;
+    color: white;
     font-family: 'Open Sans', sans-serif;
 
 }
 
 #burgermenu {
     list-style: none;
-    height: 50vw;
+    height: 80vw;
+    padding-right: 6vw;
 }
 
 .hidden {
@@ -233,6 +247,11 @@ drop {
     border: none;
     margin-left: 5vw;
     margin-top: 1vw;
+}
+
+nav {
+    background-color: #F7F9FA;
+    margin: 0;
 }
 
 /*
@@ -313,14 +332,13 @@ drop {
 
 #colom2 {
     background-color: #EDF2F8;
-    height: 70vw;
+    height: 60vw;
     width: 100vw;
     text-align: center;
 }
 
 #colom2 h3 {
-    text-align: center;
-    padding-top: 5vw
+    padding-top: 5vw;
 }
 
 .col p h3 {
@@ -923,7 +941,6 @@ h3 {
 
 .assetliste {
     padding: 60px;
-    padding-right: 250px;
     line-height: 1.5em;
     margin-left: 5vw
 }
