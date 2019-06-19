@@ -1144,3 +1144,13 @@ h4 {
     background-repeat: no-repeat;
     margin-bottom: 5vw;
 }
+
+#redesigncon p {
+    line-height: 1.5em;
+    margin-bottom: 5vw;
+}
+
+#redesigncon {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
