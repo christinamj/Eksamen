@@ -881,10 +881,10 @@ h3 {
 }
 
 .omspillet {
-    padding: 60px;
-    padding-right: 250px;
     line-height: 1.5em;
-    margin-left: 5vw
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
 }
 
 .inspi h3 {
@@ -899,10 +899,8 @@ h3 {
 }
 
 .formgivning {
-    padding: 60px;
-    padding-right: 250px;
     line-height: 1.5em;
-    margin-left: 5vw
+    margin-left: 10vw
 }
 
 .aktivitet {
@@ -1166,4 +1164,26 @@ h4 {
     margin-right: 10vw;
     padding-top: 5vw;
     margin-right: 10vw;
+}
+
+
+
+#dokcontainerveg,
+h4 {
+
+    line-height: 1.5em;
+    padding-top: 0;
+    line-height: 1.5em;
+    padding-top: 0;
+}
+
+#dokcontainerveg {
+    padding-right: 25vw;
+}
+
+
+
+.tekst {
+    margin-left: 10vw;
+    margin-right: 10ve;
 }

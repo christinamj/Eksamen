@@ -36,4 +36,19 @@ function toggleMenu() {
     if (document.querySelector("#colom2")) {
         document.querySelector("#colom2").classList.toggle("hidden");
     }
+    if (document.querySelector("#overskriftres")) {
+        document.querySelector("#overskriftres").classList.toggle("hidden");
+    }
+
+    if (document.querySelector("#doknativecontainer")) {
+        document.querySelector("#doknativecontainer").classList.toggle("hidden");
+    }
+
+    if (document.querySelector("#dscontainer")) {
+        document.querySelector("#dscontainer").classList.toggle("hidden");
+    }
+
+    if (document.querySelector("#redesigncon")) {
+        document.querySelector("#redesigncon").classList.toggle("hidden");
+    }
 }
