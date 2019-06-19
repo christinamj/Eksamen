@@ -851,28 +851,24 @@ h3 {
     padding: 35px;
     padding-left: 70px;
     padding-bottom: 100px;
-    background-color: #e6e7e8;
 }
 
 .styletyle {
     height: 60vw;
-    width: 100vw;
     background-image: url(Ikoner/styletile.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .moodboard {
     height: 60vw;
-    width: 100vw;
     background-image: url(Ikoner/moodboard1.png);
     background-size: contain;
 }
 
 .moodboard2 {
     height: 75vw;
-    width: 100vw;
     background-image: url(Ikoner/moodboard2.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -1153,4 +1149,21 @@ h4 {
 #redesigncon {
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+#dokcontainer p {
+    line-height: 1.5em;
+    margin-bottom: 5vw;
+    padding: 25px;
+}
+
+.overskriftres {
+    padding: 25px;
+}
+
+#dokcontainer {
+    padding-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 5vw;
+    margin-right: 10vw;
 }
